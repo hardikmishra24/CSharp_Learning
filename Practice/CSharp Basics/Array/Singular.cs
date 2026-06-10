@@ -24,7 +24,15 @@ namespace ConsoleApp1.CSharp_Basics.Array
 
             arr = new int[5] { 2, 4, 6, 8, 10 }; // In a pre declared array values can be initialised using the new keyword. 
 
-    }
+
+            int[] even = { 2, 4, 6, 8, 10};
+
+            for (int i = 0; i < even.Length; i++)
+            {
+                Console.WriteLine(even[i]);
+            }
+
+        }
 
 
     } 

@@ -1,8 +1,12 @@
-﻿using ConsoleApp1.CSharp_Basics.CallBy_Value_Reference;
+﻿using ConsoleApp1.CSharp_Basics.Array;
+using ConsoleApp1.CSharp_Basics.CallBy_Value_Reference;
 using ConsoleApp1.CSharp_Basics.Conditionals;
 using ConsoleApp1.CSharp_Basics.DataTypes;
 using ConsoleApp1.CSharp_Basics.Enums;
+using ConsoleApp1.CSharp_Basics.Generics;
+using ConsoleApp1.CSharp_Basics.Indexers;
 using ConsoleApp1.CSharp_Basics.Interfaces;
+using ConsoleApp1.CSharp_Basics.Lists;
 using ConsoleApp1.CSharp_Basics.Loops;
 using ConsoleApp1.CSharp_Basics.Methods;
 using ConsoleApp1.CSharp_Basics.OOP;
@@ -46,9 +50,11 @@ namespace ConsoleApp1
             //LearnWhile_loop.Run();
             //For_Loop.Run();
             //LearnDoWhile.Run();
-            PartialClassImpl.Run();
-
-
+            //PartialClassImpl.Run();
+            //Multiple.Run();
+            //Learn_Generic.Run();
+            //Indexer.Run();
+            LearnList.Run();
         }
     }
 }

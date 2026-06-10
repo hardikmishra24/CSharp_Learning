@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSharp Basics\Array_List\Lrn_arraylist.cs" />
+    <Compile Include="CSharp Basics\Array\Multiple.cs" />
     <Compile Include="CSharp Basics\Array\Singular.cs" />
     <Compile Include="CSharp Basics\CallBy_Value_Reference\By_Reference.cs" />
     <Compile Include="CSharp Basics\CallBy_Value_Reference\By_Value.cs" />
@@ -54,6 +56,9 @@
     <Compile Include="CSharp Basics\DataTypes\TypeCasting.cs" />
     <Compile Include="CSharp Basics\DataTypes\Variables.cs" />
     <Compile Include="CSharp Basics\Enums\EnumDemo.cs" />
+    <Compile Include="CSharp Basics\Generics\Learn_Generic.cs" />
+    <Compile Include="CSharp Basics\Indexers\Indexer.cs" />
+    <Compile Include="CSharp Basics\Lists\LearnList.cs" />
     <Compile Include="CSharp Basics\Loops\For_Loop.cs" />
     <Compile Include="CSharp Basics\Loops\LearnDoWhile.cs" />
     <Compile Include="CSharp Basics\Loops\LearnWhile_loop.cs" />
@@ -64,7 +69,7 @@
     <Compile Include="CSharp Basics\Patial_Classes\PartialClassImpl.cs" />
     <Compile Include="CSharp Basics\Patial_Classes\SamplePartialClass_01.cs" />
     <Compile Include="CSharp Basics\Patial_Classes\SamplePartialClass_02.cs" />
-    <Compile Include="CSharp Basics\Static_key.cs" />
+    <Compile Include="CSharp Basics\StaticKeyword\Static_key.cs" />
     <Compile Include="CSharp Basics\Strings\Learn_StringBuilder.cs" />
     <Compile Include="CSharp Basics\Strings\StringInterpolation.cs" />
     <Compile Include="CSharp Basics\Strings\Strings.cs" />

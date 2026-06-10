@@ -15,9 +15,9 @@ namespace ConsoleApp1.CSharp_Basics.CallBy_Value_Reference
         {
             void ChangeValue(int x)
             {
-                x = 200;
+             x = 200;
 
-                Console.WriteLine("Inside ChangeValue: " + x);
+             Console.WriteLine("Inside ChangeValue: " + x);
             }
 
             int i = 100;
