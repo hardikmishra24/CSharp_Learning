@@ -54,7 +54,8 @@ namespace ConsoleApp1
             //Multiple.Run();
             //Learn_Generic.Run();
             //Indexer.Run();
-            LearnList.Run();
+            //LearnList.Run();
+            SortList.Run();
         }
     }
 }
