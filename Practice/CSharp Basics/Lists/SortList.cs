@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 namespace ConsoleApp1.CSharp_Basics.Lists
 {
     internal class SortList
-    {
+    { sorted new = sorted()
     }
 }
