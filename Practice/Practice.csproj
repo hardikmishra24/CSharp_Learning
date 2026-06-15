@@ -55,10 +55,13 @@
     <Compile Include="CSharp Basics\DataTypes\NullableType.cs" />
     <Compile Include="CSharp Basics\DataTypes\TypeCasting.cs" />
     <Compile Include="CSharp Basics\DataTypes\Variables.cs" />
+    <Compile Include="CSharp Basics\Dictionary\LearnDictionary.cs" />
     <Compile Include="CSharp Basics\Enums\EnumDemo.cs" />
     <Compile Include="CSharp Basics\Generics\Learn_Generic.cs" />
     <Compile Include="CSharp Basics\Indexers\Indexer.cs" />
     <Compile Include="CSharp Basics\Lists\LearnList.cs" />
+    <Compile Include="CSharp Basics\Lists\SortedListDemo.cs" />
+    <Compile Include="CSharp Basics\Lists\SortListdes.cs" />
     <Compile Include="CSharp Basics\Loops\For_Loop.cs" />
     <Compile Include="CSharp Basics\Loops\LearnDoWhile.cs" />
     <Compile Include="CSharp Basics\Loops\LearnWhile_loop.cs" />

@@ -16,9 +16,9 @@ namespace ConsoleApp1.CSharp_Basics.Generics
     // A generic class can include generic fields. However, it cannot be initialized.
 
     ///Advantages of Generics
-//Generics increase the reusability of the code.You don't need to write code to handle different data types.
-//Generics are type - safe.You get compile-time errors if you try to use a different data type than the one specified in the definition.
-//Generic has a performance advantage because it removes the possibilities of boxing and unboxing.
+    //Generics increase the reusability of the code.You don't need to write code to handle different data types.
+    //Generics are type - safe.You get compile-time errors if you try to use a different data type than the one specified in the definition.
+    //Generic has a performance advantage because it removes the possibilities of boxing and unboxing.
 
     {
         

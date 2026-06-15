@@ -18,10 +18,13 @@ namespace ConsoleApp1.CSharp_Basics.Strings
             string lastname = "Mishra";
             int age = 20;
 
-            // Console.WriteLine(firstname + lastname + "your age" + age);
+            Console.WriteLine(firstname + lastname + "your age" + age);  //Without string interpolation.
+
+
             Console.WriteLine($"hello {firstname} {lastname}");// allows to use / operators 
             Console.WriteLine($"your age {age}");
-
+            // Without string interpolation.
+           
         }
     }
     

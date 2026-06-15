@@ -2,6 +2,7 @@
 using ConsoleApp1.CSharp_Basics.CallBy_Value_Reference;
 using ConsoleApp1.CSharp_Basics.Conditionals;
 using ConsoleApp1.CSharp_Basics.DataTypes;
+using ConsoleApp1.CSharp_Basics.Dictionary;
 using ConsoleApp1.CSharp_Basics.Enums;
 using ConsoleApp1.CSharp_Basics.Generics;
 using ConsoleApp1.CSharp_Basics.Indexers;
@@ -55,7 +56,9 @@ namespace ConsoleApp1
             //Learn_Generic.Run();
             //Indexer.Run();
             //LearnList.Run();
-            SortList.Run();
+            //SortedListDemo.Run();
+            //SortListdes.Run();
+            LearnDictionary.Run();
         }
     }
 }
