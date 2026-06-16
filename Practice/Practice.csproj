@@ -58,6 +58,7 @@
     <Compile Include="CSharp Basics\Dictionary\LearnDictionary.cs" />
     <Compile Include="CSharp Basics\Enums\EnumDemo.cs" />
     <Compile Include="CSharp Basics\Generics\Learn_Generic.cs" />
+    <Compile Include="CSharp Basics\HashTable\LearnHashtable.cs" />
     <Compile Include="CSharp Basics\Indexers\Indexer.cs" />
     <Compile Include="CSharp Basics\Lists\LearnList.cs" />
     <Compile Include="CSharp Basics\Lists\SortedListDemo.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="CSharp Basics\Patial_Classes\PartialClassImpl.cs" />
     <Compile Include="CSharp Basics\Patial_Classes\SamplePartialClass_01.cs" />
     <Compile Include="CSharp Basics\Patial_Classes\SamplePartialClass_02.cs" />
+    <Compile Include="CSharp Basics\Stacks\LearnStack.cs" />
     <Compile Include="CSharp Basics\StaticKeyword\Static_key.cs" />
     <Compile Include="CSharp Basics\Strings\Learn_StringBuilder.cs" />
     <Compile Include="CSharp Basics\Strings\StringInterpolation.cs" />

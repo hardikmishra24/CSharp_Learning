@@ -5,6 +5,7 @@ using ConsoleApp1.CSharp_Basics.DataTypes;
 using ConsoleApp1.CSharp_Basics.Dictionary;
 using ConsoleApp1.CSharp_Basics.Enums;
 using ConsoleApp1.CSharp_Basics.Generics;
+using ConsoleApp1.CSharp_Basics.HashTable;
 using ConsoleApp1.CSharp_Basics.Indexers;
 using ConsoleApp1.CSharp_Basics.Interfaces;
 using ConsoleApp1.CSharp_Basics.Lists;
@@ -13,6 +14,9 @@ using ConsoleApp1.CSharp_Basics.Methods;
 using ConsoleApp1.CSharp_Basics.OOP;
 using ConsoleApp1.CSharp_Basics.Operators;
 using ConsoleApp1.CSharp_Basics.Patial_Classes;
+using ConsoleApp1.CSharp_Basics.Queue;
+using ConsoleApp1.CSharp_Basics.Stacks;
+
 
 
 //using ConsoleApp1.CSharp_Basics.OOPS;
@@ -58,7 +62,10 @@ namespace ConsoleApp1
             //LearnList.Run();
             //SortedListDemo.Run();
             //SortListdes.Run();
-            LearnDictionary.Run();
+            //LearnDictionary.Run();
+            //LearnHashtable.Run();
+            LearnStack.Run();
+            Queuedemo.Run();
         }
     }
 }
