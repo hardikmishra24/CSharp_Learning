@@ -53,7 +53,7 @@
     <Compile Include="CSharp Basics\Conditionals\Ternary_Operator.cs" />
     <Compile Include="CSharp Basics\DataTypes\DynamicType.cs" />
     <Compile Include="CSharp Basics\DataTypes\NullableType.cs" />
-    <Compile Include="CSharp Basics\DataTypes\TypeCasting.cs" />
+    <Compile Include="CSharp Basics\Type_Casting\TypeCasting.cs" />
     <Compile Include="CSharp Basics\DataTypes\Variables.cs" />
     <Compile Include="CSharp Basics\Dictionary\LearnDictionary.cs" />
     <Compile Include="CSharp Basics\Enums\EnumDemo.cs" />
@@ -73,6 +73,7 @@
     <Compile Include="CSharp Basics\Patial_Classes\PartialClassImpl.cs" />
     <Compile Include="CSharp Basics\Patial_Classes\SamplePartialClass_01.cs" />
     <Compile Include="CSharp Basics\Patial_Classes\SamplePartialClass_02.cs" />
+    <Compile Include="CSharp Basics\Queue\Queuedemo.cs" />
     <Compile Include="CSharp Basics\Stacks\LearnStack.cs" />
     <Compile Include="CSharp Basics\StaticKeyword\Static_key.cs" />
     <Compile Include="CSharp Basics\Strings\Learn_StringBuilder.cs" />
@@ -80,12 +81,17 @@
     <Compile Include="CSharp Basics\Strings\Strings.cs" />
     <Compile Include="CSharp Basics\Strings\StringToDatetime.cs" />
     <Compile Include="CSharp Basics\Structure\LearnStructure.cs" />
+    <Compile Include="CSharp Basics\Tuples\learnTuple.cs" />
+    <Compile Include="CSharp Basics\Tuples\LearnValueTuple.cs" />
+    <Compile Include="CSharp Basics\UserInput\User_input.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="CSharp Basics\ExceptionHandling\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

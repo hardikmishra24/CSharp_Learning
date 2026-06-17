@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 namespace ConsoleApp1.CSharp_Basics.Stacks
 {
     internal class LearnStack
+
+        // Stack uses Lifo concept which is last in first out.
+        // A stack can be both generic or non generic.
     {
         public static void Run()
         {

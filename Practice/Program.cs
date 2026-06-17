@@ -16,12 +16,11 @@ using ConsoleApp1.CSharp_Basics.Operators;
 using ConsoleApp1.CSharp_Basics.Patial_Classes;
 using ConsoleApp1.CSharp_Basics.Queue;
 using ConsoleApp1.CSharp_Basics.Stacks;
-
-
-
 //using ConsoleApp1.CSharp_Basics.OOPS;
 using ConsoleApp1.CSharp_Basics.Strings;
 using ConsoleApp1.CSharp_Basics.Structure;
+using ConsoleApp1.CSharp_Basics.Tuples;
+using ConsoleApp1.CSharp_Basics.UserInput;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,6 +35,7 @@ namespace ConsoleApp1
         {
             //StringInterpolation.Run();
             //Strings.Run();
+            User_input.Run();
             //LearnStructure.StructureDemo();
             //StringToDatetime.RunDatetime();
             //EnumDemo.Run();
@@ -64,8 +64,10 @@ namespace ConsoleApp1
             //SortListdes.Run();
             //LearnDictionary.Run();
             //LearnHashtable.Run();
-            LearnStack.Run();
-            Queuedemo.Run();
+            //LearnStack.Run();
+            //Queuedemo.Run();
+            //learnTuple.Run();
+            //LearnValueTuple.Run();
         }
     }
 }
