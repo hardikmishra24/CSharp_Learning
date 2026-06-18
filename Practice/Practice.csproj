@@ -53,6 +53,11 @@
     <Compile Include="CSharp Basics\Conditionals\Ternary_Operator.cs" />
     <Compile Include="CSharp Basics\DataTypes\DynamicType.cs" />
     <Compile Include="CSharp Basics\DataTypes\NullableType.cs" />
+    <Compile Include="CSharp Basics\ExceptionHandling\CustomException.cs" />
+    <Compile Include="CSharp Basics\ExceptionHandling\LearnException.cs" />
+    <Compile Include="CSharp Basics\ExceptionHandling\NestedException.cs" />
+    <Compile Include="CSharp Basics\ExceptionHandling\Try_Demo.cs" />
+    <Compile Include="CSharp Basics\LearnDelegates\Delegates_Demo.cs" />
     <Compile Include="CSharp Basics\Type_Casting\TypeCasting.cs" />
     <Compile Include="CSharp Basics\DataTypes\Variables.cs" />
     <Compile Include="CSharp Basics\Dictionary\LearnDictionary.cs" />
@@ -90,8 +95,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CSharp Basics\ExceptionHandling\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

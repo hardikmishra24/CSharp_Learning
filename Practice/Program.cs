@@ -4,10 +4,12 @@ using ConsoleApp1.CSharp_Basics.Conditionals;
 using ConsoleApp1.CSharp_Basics.DataTypes;
 using ConsoleApp1.CSharp_Basics.Dictionary;
 using ConsoleApp1.CSharp_Basics.Enums;
+using ConsoleApp1.CSharp_Basics.ExceptionHandling;
 using ConsoleApp1.CSharp_Basics.Generics;
 using ConsoleApp1.CSharp_Basics.HashTable;
 using ConsoleApp1.CSharp_Basics.Indexers;
 using ConsoleApp1.CSharp_Basics.Interfaces;
+using ConsoleApp1.CSharp_Basics.LearnDelegates;
 using ConsoleApp1.CSharp_Basics.Lists;
 using ConsoleApp1.CSharp_Basics.Loops;
 using ConsoleApp1.CSharp_Basics.Methods;
@@ -35,7 +37,7 @@ namespace ConsoleApp1
         {
             //StringInterpolation.Run();
             //Strings.Run();
-            User_input.Run();
+            //User_input.Run();
             //LearnStructure.StructureDemo();
             //StringToDatetime.RunDatetime();
             //EnumDemo.Run();
@@ -67,7 +69,12 @@ namespace ConsoleApp1
             //LearnStack.Run();
             //Queuedemo.Run();
             //learnTuple.Run();
-            //LearnValueTuple.Run();
+            // LearnValueTuple.Run();
+            //LearnException.Run();
+           // NestedException.Run();
+            //Try_Demo.Run();
+            //CustomException.Run();
+            Delegates_Demo.Run();
         }
-    }
+}
 }
