@@ -57,7 +57,14 @@
     <Compile Include="CSharp Basics\ExceptionHandling\LearnException.cs" />
     <Compile Include="CSharp Basics\ExceptionHandling\NestedException.cs" />
     <Compile Include="CSharp Basics\ExceptionHandling\Try_Demo.cs" />
+    <Compile Include="CSharp Basics\LearnDelegates\Action_key.cs" />
+    <Compile Include="CSharp Basics\LearnDelegates\Anonymous_Method.cs" />
     <Compile Include="CSharp Basics\LearnDelegates\Delegates_Demo.cs" />
+    <Compile Include="CSharp Basics\LearnDelegates\Func_key.cs" />
+    <Compile Include="CSharp Basics\LearnDelegates\MultiCast.cs" />
+    <Compile Include="CSharp Basics\LearnDelegates\Outparam.cs" />
+    <Compile Include="CSharp Basics\LearnDelegates\Predicate_key.cs" />
+    <Compile Include="CSharp Basics\LearnDelegates\Returnvalue.cs" />
     <Compile Include="CSharp Basics\Type_Casting\TypeCasting.cs" />
     <Compile Include="CSharp Basics\DataTypes\Variables.cs" />
     <Compile Include="CSharp Basics\Dictionary\LearnDictionary.cs" />

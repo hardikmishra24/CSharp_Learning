@@ -50,7 +50,7 @@ namespace ConsoleApp1
             //NullableType.Run();
             //By_Value.Run();
             //LearnInterfaces.Run();
-            // Operator_Precedence.Run();
+            //Operator_Precedence.Run();
             //If_Else.Run();
             //Ternary_Operator.Run();
             //LearnSwitches.Run();
@@ -69,12 +69,17 @@ namespace ConsoleApp1
             //LearnStack.Run();
             //Queuedemo.Run();
             //learnTuple.Run();
-            // LearnValueTuple.Run();
+            //LearnValueTuple.Run();
             //LearnException.Run();
-           // NestedException.Run();
+            //NestedException.Run();
             //Try_Demo.Run();
             //CustomException.Run();
-            Delegates_Demo.Run();
+            //Delegates_Demo.Run();
+            //MultiCast.Run();
+            //Returnvalue.Run();
+            //Action_key.Run();
+            //Predicate_key.Run();
+            Anonymous_Method.Run();
         }
 }
 }

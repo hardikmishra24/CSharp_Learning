@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.CSharp_Basics.LearnDelegates
 {
+    // The delegate is a reference type data type that defines the method signature. 
     // A delegate is a type safe function pointer. That is it holds a reference(Pointer) to a function.
     // A delegate must contain the same data-type and return-type similar to that of a function.
     // It is similar to a class, we can create the object of a delegate.
@@ -14,10 +15,9 @@ namespace ConsoleApp1.CSharp_Basics.LearnDelegates
     // Syntax is similar to function declaration just use the delegate keyword.
 
 
-
-    public delegate void TestDelegate(string Message);
     internal class Delegates_Demo
     {
+        public delegate void TestDelegate(string Message);
         public static void Run()
         {
             TestDelegate del = new TestDelegate(Test);
