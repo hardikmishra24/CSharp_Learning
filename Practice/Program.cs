@@ -2,6 +2,8 @@
 using ConsoleApp1.CSharp_Basics.CallBy_Value_Reference;
 using ConsoleApp1.CSharp_Basics.Conditionals;
 using ConsoleApp1.CSharp_Basics.DataTypes;
+using ConsoleApp1.CSharp_Basics.Delegates;
+using ConsoleApp1.CSharp_Basics.Delegates.Events_Demo;
 using ConsoleApp1.CSharp_Basics.Dictionary;
 using ConsoleApp1.CSharp_Basics.Enums;
 using ConsoleApp1.CSharp_Basics.ExceptionHandling;
@@ -9,7 +11,7 @@ using ConsoleApp1.CSharp_Basics.Generics;
 using ConsoleApp1.CSharp_Basics.HashTable;
 using ConsoleApp1.CSharp_Basics.Indexers;
 using ConsoleApp1.CSharp_Basics.Interfaces;
-using ConsoleApp1.CSharp_Basics.LearnDelegates;
+using ConsoleApp1.CSharp_Basics.Delegates;
 using ConsoleApp1.CSharp_Basics.Lists;
 using ConsoleApp1.CSharp_Basics.Loops;
 using ConsoleApp1.CSharp_Basics.Methods;
@@ -79,7 +81,9 @@ namespace ConsoleApp1
             //Returnvalue.Run();
             //Action_key.Run();
             //Predicate_key.Run();
-            Anonymous_Method.Run();
+            // Anonymous_Method.Run();
+            //Subscriber.Run();
+            Subscribe.Run();
         }
 }
 }

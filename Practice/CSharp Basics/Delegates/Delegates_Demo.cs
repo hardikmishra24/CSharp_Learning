@@ -5,7 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.CSharp_Basics.LearnDelegates
+namespace ConsoleApp1.CSharp_Basics.Delegates
 {
     // The delegate is a reference type data type that defines the method signature. 
     // A delegate is a type safe function pointer. That is it holds a reference(Pointer) to a function.

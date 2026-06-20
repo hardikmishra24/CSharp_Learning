@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-      // Here a function returns a value i.e. int or string etc.
+namespace ConsoleApp1.CSharp_Basics.Delegates
+{
+    // Here a function returns a value i.e. int or string etc.
 
     internal class Returnvalue
     {
@@ -14,12 +15,12 @@ using System.Threading.Tasks;
 
         public static void Run()
         {
-        ReturnDelegate del = new ReturnDelegate(SampleMethod1);
-        del += SampleMethod2;
+            ReturnDelegate del = new ReturnDelegate(SampleMethod1);
+            del += SampleMethod2;
 
-        int returnedvalue = del();
+            int returnedvalue = del();
 
-        Console.WriteLine("The returned value is " + returnedvalue);
+            Console.WriteLine("The returned value is " + returnedvalue);
         }
 
         public static int SampleMethod1()
@@ -32,3 +33,4 @@ using System.Threading.Tasks;
             return 2;
         }
     }
+}

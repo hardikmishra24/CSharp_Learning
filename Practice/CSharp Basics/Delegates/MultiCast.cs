@@ -5,7 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.CSharp_Basics.LearnDelegates
+namespace ConsoleApp1.CSharp_Basics.Delegates
 {
     // A multicast delegate is the one where we can assign more than one function to a delegate
     // There are two ways to define a multicast delegate one by using the += and the other by defining different objects.
