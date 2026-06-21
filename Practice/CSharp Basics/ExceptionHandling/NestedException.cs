@@ -22,18 +22,23 @@ namespace ConsoleApp1.CSharp_Basics.ExceptionHandling
                     Console.WriteLine(x / y);
                 }
 
-                catch (DivideByZeroException ex)
+                catch (DivideByZeroException ex) //means: "Catch the exception only if it is a DivideByZeroException."
+
+
                 {
-                    Console.WriteLine("Inner catch" + ex.Message);
+                    Console.WriteLine("Inner catch" + ex.Message); //Message is a property that contains the error description. Message is a predefined property of the Exception class that stores the description of the error.
+                                                                   //When the error occurs: DivideByZeroException it gets stored in: ex. Then: ex.Message contains: Attempted to divide by zero. So: Console.WriteLine(ex.Message); prints: Attempted to divide by zero.
+
                 }
             }
+
 
             catch (Exception ex)
             {
                 Console.WriteLine("Outer Catch: " + ex.Message);
             }
-            //Message is a property that contains the error description. Message is a predefined property of the Exception class that stores the description of the error.
-            //When the error occurs: DivideByZeroException it gets stored in: ex. Then: ex.Message contains: Attempted to divide by zero. So: Console.WriteLine(ex.Message); prints: Attempted to divide by zero.
+            
+        
             
         }
     }

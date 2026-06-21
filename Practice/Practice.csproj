@@ -55,12 +55,14 @@
     <Compile Include="CSharp Basics\DataTypes\NullableType.cs" />
     <Compile Include="CSharp Basics\Delegates\Events_Demo\Built_In\Publish.cs" />
     <Compile Include="CSharp Basics\Delegates\Events_Demo\Built_In\Subscribe.cs" />
+    <Compile Include="CSharp Basics\Delegates\Events_Demo\Eventhandler\Programs.cs" />
     <Compile Include="CSharp Basics\Delegates\Events_Demo\Subscriber.cs" />
     <Compile Include="CSharp Basics\Delegates\Events_Demo\Publisher.cs" />
     <Compile Include="CSharp Basics\ExceptionHandling\CustomException.cs" />
     <Compile Include="CSharp Basics\ExceptionHandling\LearnException.cs" />
     <Compile Include="CSharp Basics\ExceptionHandling\NestedException.cs" />
-    <Compile Include="CSharp Basics\ExceptionHandling\Try_Demo.cs" />
+    <Compile Include="CSharp Basics\ExceptionHandling\Rethrow.cs" />
+    <Compile Include="CSharp Basics\ExceptionHandling\Throw_Demo.cs" />
     <Compile Include="CSharp Basics\Delegates\Action_Key.cs" />
     <Compile Include="CSharp Basics\Delegates\Anonymous_Method.cs" />
     <Compile Include="CSharp Basics\Delegates\Delegates_Demo.cs" />

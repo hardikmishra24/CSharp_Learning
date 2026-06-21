@@ -19,6 +19,7 @@ namespace ConsoleApp1.CSharp_Basics.ExceptionHandling
             catch //catch is a block that handles an exception when an error occurs inside the try block, preventing the program from crashing.
             {
                 Console.WriteLine("Error Occured");
+          
             }
 
             finally //The finally block will always be executed whether an exception raised or not.
