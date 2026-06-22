@@ -15,6 +15,8 @@ namespace ConsoleApp1.CSharp_Basics.Delegates.Events_Demo.Eventhandler
         // Event declaration
         // EventHandler is a predefined .NET delegate:
         // public delegate void EventHandler(object sender, EventArgs e)
+        
+        
         public event EventHandler Clicked;//This means: Any method attached to this event must accept:
                                           //an object
                                           //an EventArgs
@@ -40,6 +42,8 @@ namespace ConsoleApp1.CSharp_Basics.Delegates.Events_Demo.Eventhandler
             // EventArgs.Empty = predefined empty EventArgs object
             // Used when there is no extra event data to send
             Clicked?.Invoke(this, EventArgs.Empty);
+
+            // It is directly invoking the event, then that event invokes the function ButtonClicked. Since the function requires these parms so this and EventArgs is send.
 
         }
     }

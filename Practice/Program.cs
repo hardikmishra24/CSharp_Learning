@@ -17,6 +17,7 @@ using ConsoleApp1.CSharp_Basics.Lists;
 using ConsoleApp1.CSharp_Basics.Loops;
 using ConsoleApp1.CSharp_Basics.Methods;
 using ConsoleApp1.CSharp_Basics.OOP;
+using ConsoleApp1.CSharp_Basics.OOPS.UpCasting;
 using ConsoleApp1.CSharp_Basics.Operators;
 using ConsoleApp1.CSharp_Basics.Patial_Classes;
 using ConsoleApp1.CSharp_Basics.Queue;
@@ -76,7 +77,7 @@ namespace ConsoleApp1
             //LearnException.Run();
             //NestedException.Run();
             //Throw_Demo.Run();
-           // Rethrow.Run();
+            // Rethrow.Run();
             //CustomException.Run();
             //Delegates_Demo.Run();
             //MultiCast.Run();
@@ -86,7 +87,9 @@ namespace ConsoleApp1
             // Anonymous_Method.Run();
             //Subscriber.Run();
             //Subscribe.Run();
-            Programs.Run();
+            //Programs.Run();
+            Program2.Run();
+            //UpcastingDemo.Run();
         }
 }
 }

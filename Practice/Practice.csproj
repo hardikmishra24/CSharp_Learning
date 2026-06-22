@@ -55,6 +55,7 @@
     <Compile Include="CSharp Basics\DataTypes\NullableType.cs" />
     <Compile Include="CSharp Basics\Delegates\Events_Demo\Built_In\Publish.cs" />
     <Compile Include="CSharp Basics\Delegates\Events_Demo\Built_In\Subscribe.cs" />
+    <Compile Include="CSharp Basics\Delegates\Events_Demo\Eventhandler\Program2.cs" />
     <Compile Include="CSharp Basics\Delegates\Events_Demo\Eventhandler\Programs.cs" />
     <Compile Include="CSharp Basics\Delegates\Events_Demo\Subscriber.cs" />
     <Compile Include="CSharp Basics\Delegates\Events_Demo\Publisher.cs" />
@@ -71,6 +72,8 @@
     <Compile Include="CSharp Basics\Delegates\Outparam.cs" />
     <Compile Include="CSharp Basics\Delegates\Predicate_key.cs" />
     <Compile Include="CSharp Basics\Delegates\Returnvalue.cs" />
+    <Compile Include="CSharp Basics\OOPS\UpCasting\SizeProgram.cs" />
+    <Compile Include="CSharp Basics\OOPS\UpCasting\UpcastingDemo.cs" />
     <Compile Include="CSharp Basics\Type_Casting\TypeCasting.cs" />
     <Compile Include="CSharp Basics\DataTypes\Variables.cs" />
     <Compile Include="CSharp Basics\Dictionary\LearnDictionary.cs" />
