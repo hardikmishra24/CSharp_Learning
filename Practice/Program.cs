@@ -88,8 +88,9 @@ namespace ConsoleApp1
             //Subscriber.Run();
             //Subscribe.Run();
             //Programs.Run();
-            Program2.Run();
-            //UpcastingDemo.Run();
+            //Program2.Run();
+            UpcastingDemo.Run();
+            //SizeProgram.Run();
         }
 }
 }

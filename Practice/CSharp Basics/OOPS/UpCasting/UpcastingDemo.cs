@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.CSharp_Basics.OOPS.UpCasting
 {
-
+    //When a child class object is stored in a parent class reference variable, it is called Upcasting.
     class Animal
     {
         public virtual void Sound()
@@ -41,10 +41,20 @@ namespace ConsoleApp1.CSharp_Basics.OOPS.UpCasting
             animal.Sound();
         }
 
+        static void Makeanimalspeak(Cat cat)// Without Upcasting we have to create seperate methods for every class
+        {
+           cat.Sound();
+        }
+
+
+
         public static void Run()
         {
-            Makeanimalspeak(new Dog());
+            Makeanimalspeak(new Dog()); // internally it is Animal animal = new Dog();
             Makeanimalspeak(new Cat());
+
+            Dog dog = new Dog();// Without upcasting.
+            Makeanimalspeak(dog);
         }
     }
 }
