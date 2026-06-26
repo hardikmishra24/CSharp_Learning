@@ -1,6 +1,8 @@
 ﻿using ConsoleApp1.CSharp_Basics.Array;
 using ConsoleApp1.CSharp_Basics.CallBy_Value_Reference;
 using ConsoleApp1.CSharp_Basics.Conditionals;
+using ConsoleApp1.CSharp_Basics.Contravariance;
+using ConsoleApp1.CSharp_Basics.Covariance;
 using ConsoleApp1.CSharp_Basics.DataTypes;
 using ConsoleApp1.CSharp_Basics.Delegates;
 using ConsoleApp1.CSharp_Basics.Delegates;
@@ -55,6 +57,7 @@ namespace ConsoleApp1
             //By_Value.Run();
             //LearnInterfaces.Run();
             //Operator_Precedence.Run();
+            //AssignmentOP.Run();
             //If_Else.Run();
             //Ternary_Operator.Run();
             //LearnSwitches.Run();
@@ -89,8 +92,10 @@ namespace ConsoleApp1
             //Subscribe.Run();
             //Programs.Run();
             //Program2.Run();
-            UpcastingDemo.Run();
+            // UpcastingDemo.Run();
             //SizeProgram.Run();
+            // CoVariance.Run();
+            ContraVariance.Run();
         }
 }
 }

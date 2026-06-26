@@ -35,7 +35,10 @@ namespace ConsoleApp1.CSharp_Basics.OOPS.UpCasting
             Small s = new Big(); //Small s is just a reference variable(a variable that points to an object). Here reference type is small. Even though the object is bigger
                                  // Reference  =  Actual 
                                  // variable      object
-          //  Create a Bigger object and store its address in a reference variable of type Small.
+                                 //  Create a Bigger object and store its address in a reference variable of type Small.
+                                 // Create a Big object and store its reference in a variable of type Small.
+                                 // Reference Type = Small, Actual Object Type = Big.
+                                 // It means Can access only members defined in Small; cannot directly access Big-specific members
 
 
             s.A(); // ✔

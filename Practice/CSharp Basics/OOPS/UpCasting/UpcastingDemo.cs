@@ -50,7 +50,7 @@ namespace ConsoleApp1.CSharp_Basics.OOPS.UpCasting
 
         public static void Run()
         {
-            Makeanimalspeak(new Dog()); // internally it is Animal animal = new Dog();
+            Makeanimalspeak(new Dog()); // internally it is Animal animal = new Dog(); which means Create a Dog object and store its reference in a variable of type Animal.
             Makeanimalspeak(new Cat());
 
             Dog dog = new Dog();// Without upcasting.

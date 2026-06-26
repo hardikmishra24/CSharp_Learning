@@ -51,6 +51,8 @@
     <Compile Include="CSharp Basics\Conditionals\If_Else.cs" />
     <Compile Include="CSharp Basics\Conditionals\LearnSwitches.cs" />
     <Compile Include="CSharp Basics\Conditionals\Ternary_Operator.cs" />
+    <Compile Include="CSharp Basics\Contravariance\ContraVariance.cs" />
+    <Compile Include="CSharp Basics\Covariance\CoVariance.cs" />
     <Compile Include="CSharp Basics\DataTypes\DynamicType.cs" />
     <Compile Include="CSharp Basics\DataTypes\NullableType.cs" />
     <Compile Include="CSharp Basics\Delegates\Events_Demo\Built_In\Publish.cs" />
@@ -74,6 +76,7 @@
     <Compile Include="CSharp Basics\Delegates\Returnvalue.cs" />
     <Compile Include="CSharp Basics\OOPS\UpCasting\SizeProgram.cs" />
     <Compile Include="CSharp Basics\OOPS\UpCasting\UpcastingDemo.cs" />
+    <Compile Include="CSharp Basics\Operators\AssignmentOP.cs" />
     <Compile Include="CSharp Basics\Type_Casting\TypeCasting.cs" />
     <Compile Include="CSharp Basics\DataTypes\Variables.cs" />
     <Compile Include="CSharp Basics\Dictionary\LearnDictionary.cs" />
@@ -111,9 +114,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CSharp Basics\Delegates\Contravariance\" />
-    <Folder Include="CSharp Basics\Delegates\Covariance\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
