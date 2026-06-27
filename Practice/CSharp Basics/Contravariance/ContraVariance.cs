@@ -1,247 +1,70 @@
-﻿using System;
+﻿using ConsoleApp1.CSharp_Basics.OOPS.UpCasting;
+using System;
 
 namespace ConsoleApp1.CSharp_Basics.Contravariance
 {
-    //Contravariance can only be used for value input to maintain type safety.
+    //Contravariance means : you can use a more general type where a more specific type is expected. Contravariance can only be used for value input to maintain type safety.
+
     class Animal
     {
         public string name { get; set; }
     }
 
-    class Lion : Animal
+    class Lion : Animal { }
+    class Dog : Animal { }
+    
+    class Cat : Animal { }
+        internal class ContraVariance
     {
-    }
-
-    internal class ContraVariance
-    {
-
-        // This method accepts an Animal object.
-        // Since Dog, Cat, Lion etc. all inherit from Animal,
-        // this one method can process every kind of animal.
-        // Think of it as:  Animal Processing Machine
-
-        static void HandleAnimal(Animal animal)
+        static void HandleAnimal(Animal animal) //`HandleAnimal` is a method that takes an `Animal` object as input and returns nothing. Since Dog, Cat, Lion etc. all inherit from Animal, so all the animals can be accepted this takes an object of animal type
         {
             Console.WriteLine(animal.name);
         }
 
+
+        // Without Contravariance, it Handles ONLY Cats
+        static void Handlecat(Cat cat)
+        {
+            Console.WriteLine($"Handling Cat : {cat.name}");
+        }
+
+
+
         public static void Run()
         {
-
-            // Action<T> is a predefined Delegate.
-
-            // Action<Animal> means:"Store a method that accepts ONE Animal parameter and returns NOTHING (void)."
-
             Action<Animal> animalHandler = HandleAnimal;
+            // Action<T> is a predefined Delegate.
+            // Action<Animal> means:"Store a method that accepts ONE Animal parameter and returns NOTHING (void)."
+            // animalHandler ->  HandleAnimal(Animal animal).
+            // This can take any animal type object because all belong to Animals.
 
 
-
-            // animalHandler
-            //
-            //      │
-            //      ▼
-            // HandleAnimal(Animal animal)
-            //
-            // This machine can process:
-            //
-            // Dog
-            // Cat
-            // Lion
-            // Tiger
-            //
-            // because all of them are Animals.
             Action<Lion> lionHandler = animalHandler;
+            // "I need a Lion-processing machine. but the C# gives an all Animal processing machine which means a more (generic machine). So this can process every animal
+            // Think of LionHandler as:  Lion Filter -> Animal Processing Machine. 
+            // But The machine is STILL the Animal machine. LionHandler just restricts callers so only lions can be passed through this reference.
 
-            /////////////////////////////////////////////////////////////
-            // Read this line as:
-            //
-            // "I need a Lion-processing machine."
-            //
-            // C# replies:
-            //
-            // "Here is an Animal-processing machine."
-            //
-            // Is it safe?
-            //
-            // YES.
-            //
-            // Because a machine that can process EVERY Animal
-            // can definitely process Dogs.
-            //
-            // Think of LionHandler as:
-            //
-            //        Lion Filter
-            //             │
-            //             ▼
-            //     Animal Processing Machine
-            //
-            // The machine is STILL the Animal machine.
-            //
-            // dogHandler simply restricts callers so that
-            // ONLY Lions can be passed through this reference.
-
-            Lion lion = new Lion()
+            Lion lion = new Lion()  
             {
                 name = "Simba"
             };
 
             lionHandler(lion);
-            //These are NOT allowed:LionHandler(new Cat()); LionHandler(new Dog())
+            //These are NOT allowed:LionHandler(new Cat()); LionHandler(new Dog());  LionHandler(new Horse())
+
+
+
+            //* Better way of representation* it means same for that of above.
+            Action<Dog> dogHandler = animalHandler;
+            dogHandler(new Dog() { name = "Tommy" }); //Calls the dogHandler delegate by passing a new Dog object with its Name property set to "Tommy"."
+
+
+
+
+            //Object and delegate for without contravariance
+            Action<Cat> catHandler = Handlecat;
+            catHandler(new Cat() { name = "Leo" });
         }
     }
 }
 
-/*without contravariance
- * 
- * using System;
-
-class Animal
-{
-    public string Name { get; set; }
-}
-
-class Dog : Animal
-{
-}
-
-class Cat : Animal
-{
-}
-
-class Lion : Animal
-{
-}
-
-class Program
-{
-    /////////////////////////////////////////////////////////////
-    // PROBLEM:
-    //
-    // Suppose C# did NOT support Contravariance.
-    //
-    // Then we CANNOT reuse one Animal handler
-    // for Dog, Cat, Lion, etc.
-    //
-    // Instead, we must create a separate method
-    // for every animal type.
-    //
-    // As new animals are added,
-    // we keep writing more and more methods.
-    /////////////////////////////////////////////////////////////
-
-
-    // Handles ONLY Dogs
-    static void HandleDog(Dog dog)
-    {
-        Console.WriteLine($"Handling Dog : {dog.Name}");
-    }
-
-    // Handles ONLY Cats
-    static void HandleCat(Cat cat)
-    {
-        Console.WriteLine($"Handling Cat : {cat.Name}");
-    }
-
-    // Handles ONLY Lions
-    static void HandleLion(Lion lion)
-    {
-        Console.WriteLine($"Handling Lion : {lion.Name}");
-    }
-
-
-    /////////////////////////////////////////////////////////////
-    // Imagine tomorrow new animals are added.
-    //
-    // Then we must AGAIN write:
-    //
-    // static void HandleTiger(Tiger tiger)
-    // {
-    // }
-    //
-    // static void HandleElephant(Elephant elephant)
-    // {
-    // }
-    //
-    // static void HandleHorse(Horse horse)
-    // {
-    // }
-    //
-    // static void HandleMonkey(Monkey monkey)
-    // {
-    // }
-    //
-    // The code keeps growing.
-    //
-    // We are writing almost identical methods
-    // again and again.
-    //
-    // This is repetitive, difficult to maintain,
-    // and violates the idea of code reuse.
-    /////////////////////////////////////////////////////////////
-
-
-    static void Main()
-    {
-        Dog dog = new Dog()
-        {
-            Name = "Tommy"
-        };
-
-        Cat cat = new Cat()
-        {
-            Name = "Kitty"
-        };
-
-        Lion lion = new Lion()
-        {
-            Name = "Simba"
-        };
-
-
-        /////////////////////////////////////////////////////////////
-        // Since every method is different,
-        // every delegate is also different.
-        /////////////////////////////////////////////////////////////
-
-        Action<Dog> dogHandler = HandleDog;
-
-        Action<Cat> catHandler = HandleCat;
-
-        Action<Lion> lionHandler = HandleLion;
-
-
-        /////////////////////////////////////////////////////////////
-        // Every handler can process ONLY one animal type.
-        /////////////////////////////////////////////////////////////
-
-        dogHandler(dog);
-
-        catHandler(cat);
-
-        lionHandler(lion);
-
-
-        /////////////////////////////////////////////////////////////
-        // PROBLEM SUMMARY
-        //
-        // Dog   → HandleDog()
-        // Cat   → HandleCat()
-        // Lion  → HandleLion()
-        // Tiger → HandleTiger()
-        // Horse → HandleHorse()
-        //
-        // One new animal
-        // =
-        // One new method
-        // +
-        // One new delegate
-        //
-        // Lots of duplicate code.
-        //
-        // This is exactly the problem
-        // Contravariance solves.
-        /////////////////////////////////////////////////////////////
-    }
-}
- * 
- */

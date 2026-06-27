@@ -94,8 +94,8 @@ namespace ConsoleApp1
             //Program2.Run();
             // UpcastingDemo.Run();
             //SizeProgram.Run();
-            // CoVariance.Run();
-            ContraVariance.Run();
+             CoVariance.Run();
+          //  ContraVariance.Run();
         }
 }
 }
