@@ -11,6 +11,7 @@ using ConsoleApp1.CSharp_Basics.Delegates.Events_Demo.Eventhandler;
 using ConsoleApp1.CSharp_Basics.Dictionary;
 using ConsoleApp1.CSharp_Basics.Enums;
 using ConsoleApp1.CSharp_Basics.ExceptionHandling;
+using ConsoleApp1.CSharp_Basics.ExtensionMethods;
 using ConsoleApp1.CSharp_Basics.Generics;
 using ConsoleApp1.CSharp_Basics.HashTable;
 using ConsoleApp1.CSharp_Basics.Indexers;
@@ -94,8 +95,9 @@ namespace ConsoleApp1
             //Program2.Run();
             // UpcastingDemo.Run();
             //SizeProgram.Run();
-             CoVariance.Run();
-          //  ContraVariance.Run();
+            // CoVariance.Run();
+            //  ContraVariance.Run();
+            Size.Run();
         }
 }
 }
