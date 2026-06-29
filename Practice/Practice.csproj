@@ -76,6 +76,7 @@
     <Compile Include="CSharp Basics\Delegates\Returnvalue.cs" />
     <Compile Include="CSharp Basics\ExtensionMethods\IntExtension.cs" />
     <Compile Include="CSharp Basics\ExtensionMethods\Size.cs" />
+    <Compile Include="CSharp Basics\Files.cs" />
     <Compile Include="CSharp Basics\OOPS\UpCasting\SizeProgram.cs" />
     <Compile Include="CSharp Basics\OOPS\UpCasting\UpcastingDemo.cs" />
     <Compile Include="CSharp Basics\Operators\AssignmentOP.cs" />
