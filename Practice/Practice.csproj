@@ -76,7 +76,12 @@
     <Compile Include="CSharp Basics\Delegates\Returnvalue.cs" />
     <Compile Include="CSharp Basics\ExtensionMethods\IntExtension.cs" />
     <Compile Include="CSharp Basics\ExtensionMethods\Size.cs" />
-    <Compile Include="CSharp Basics\Files.cs" />
+    <Compile Include="CSharp Basics\Files_Directories\Directories.cs" />
+    <Compile Include="CSharp Basics\Files_Directories\Files.cs" />
+    <Compile Include="CSharp Basics\Files_Directories\LearnFileDemo\File_Demo.cs" />
+    <Compile Include="CSharp Basics\Initializer\CollectionInitalizer\Collection.cs" />
+    <Compile Include="CSharp Basics\Initializer\Coll_ObjInitializer.cs" />
+    <Compile Include="CSharp Basics\Initializer\ObjectInitializer\Objects.cs" />
     <Compile Include="CSharp Basics\OOPS\UpCasting\SizeProgram.cs" />
     <Compile Include="CSharp Basics\OOPS\UpCasting\UpcastingDemo.cs" />
     <Compile Include="CSharp Basics\Operators\AssignmentOP.cs" />

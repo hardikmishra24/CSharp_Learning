@@ -1,0 +1,2 @@
+Hello Hardik!
+Welcome to FileInfo in C#.
