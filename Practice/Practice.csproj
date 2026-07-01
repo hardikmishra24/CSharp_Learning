@@ -82,6 +82,15 @@
     <Compile Include="CSharp Basics\Initializer\CollectionInitalizer\Collection.cs" />
     <Compile Include="CSharp Basics\Initializer\Coll_ObjInitializer.cs" />
     <Compile Include="CSharp Basics\Initializer\ObjectInitializer\Objects.cs" />
+    <Compile Include="CSharp Basics\OOPS\Encapsulation\AcessModifier\Bank.cs" />
+    <Compile Include="CSharp Basics\OOPS\Inheritance\Access_Modifiers.cs" />
+    <Compile Include="CSharp Basics\OOPS\Inheritance\BaseKey.cs" />
+    <Compile Include="CSharp Basics\OOPS\Inheritance\Constructor.cs" />
+    <Compile Include="CSharp Basics\OOPS\Inheritance\Inheritance.cs" />
+    <Compile Include="CSharp Basics\OOPS\Inheritance\Type_Conversion.cs" />
+    <Compile Include="CSharp Basics\OOPS\Structural_Relationships\Aggregation.cs" />
+    <Compile Include="CSharp Basics\OOPS\Structural_Relationships\Association.cs" />
+    <Compile Include="CSharp Basics\OOPS\Structural_Relationships\Composition.cs" />
     <Compile Include="CSharp Basics\OOPS\UpCasting\SizeProgram.cs" />
     <Compile Include="CSharp Basics\OOPS\UpCasting\UpcastingDemo.cs" />
     <Compile Include="CSharp Basics\Operators\AssignmentOP.cs" />
@@ -100,7 +109,7 @@
     <Compile Include="CSharp Basics\Loops\LearnWhile_loop.cs" />
     <Compile Include="CSharp Basics\Methods\AnonymousType.cs" />
     <Compile Include="CSharp Basics\OOPS\Classes&amp;Obj.cs" />
-    <Compile Include="CSharp Basics\OOPS\LearnInterfaces.cs" />
+    <Compile Include="CSharp Basics\OOPS\Interfaces\LearnInterfaces.cs" />
     <Compile Include="CSharp Basics\Operators\Operator_Precedence.cs" />
     <Compile Include="CSharp Basics\Patial_Classes\PartialClassImpl.cs" />
     <Compile Include="CSharp Basics\Patial_Classes\SamplePartialClass_01.cs" />
@@ -122,6 +131,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="CSharp Basics\OOPS\Oops_property.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

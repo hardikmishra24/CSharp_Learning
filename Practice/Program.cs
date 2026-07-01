@@ -26,6 +26,9 @@ using ConsoleApp1.CSharp_Basics.Loops;
 using ConsoleApp1.CSharp_Basics.Methods;
 using ConsoleApp1.CSharp_Basics.OOP;
 using ConsoleApp1.CSharp_Basics.OOPS;
+using ConsoleApp1.CSharp_Basics.OOPS.Encapsulation.AcessModifier;
+using ConsoleApp1.CSharp_Basics.OOPS.Inheritance;
+using ConsoleApp1.CSharp_Basics.OOPS.Structural_Relationships;
 using ConsoleApp1.CSharp_Basics.OOPS.UpCasting;
 using ConsoleApp1.CSharp_Basics.Operators;
 using ConsoleApp1.CSharp_Basics.Patial_Classes;
@@ -108,7 +111,15 @@ namespace ConsoleApp1
             //File_Demo.Run();
             //Objects.Run();
             //Collection.Run();
-            Coll_ObjInitializer.Run();
+            //Coll_ObjInitializer.Run();
+            //Bank.Run();
+            //Composition.Run();
+            //Aggregation.Run();
+            //Association.Run();
+            //Inheritance.Run();
+            //Constructor.Run();
+            //BaseKey.Run();
+            Type_Conversion.Run();
         }
     }
 }

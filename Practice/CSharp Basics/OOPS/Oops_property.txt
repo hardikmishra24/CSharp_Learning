@@ -1,0 +1,6 @@
+Object oriented programming consists of four main pillars 
+
+1) Abstraction ->  The process of identifying entities and characteristics which can be classes and their members from the business requirement is called "Abstraction".
+2) Encapsulation -> Encapsulation is way to implement abstraction. It hides the implementation of the code and the unnecessary data from the end user.
+3) Polymorphism
+4)  Inheritance
