@@ -88,6 +88,9 @@
     <Compile Include="CSharp Basics\OOPS\Inheritance\Constructor.cs" />
     <Compile Include="CSharp Basics\OOPS\Inheritance\Inheritance.cs" />
     <Compile Include="CSharp Basics\OOPS\Inheritance\Type_Conversion.cs" />
+    <Compile Include="CSharp Basics\OOPS\Polymorphism\Hiding.cs" />
+    <Compile Include="CSharp Basics\OOPS\Polymorphism\overloading.cs" />
+    <Compile Include="CSharp Basics\OOPS\Polymorphism\overriding.cs" />
     <Compile Include="CSharp Basics\OOPS\Structural_Relationships\Aggregation.cs" />
     <Compile Include="CSharp Basics\OOPS\Structural_Relationships\Association.cs" />
     <Compile Include="CSharp Basics\OOPS\Structural_Relationships\Composition.cs" />
@@ -134,8 +137,6 @@
   <ItemGroup>
     <Content Include="CSharp Basics\OOPS\Oops_property.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CSharp Basics\OOPS\Polymorphism\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

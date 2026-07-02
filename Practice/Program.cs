@@ -119,7 +119,7 @@ namespace ConsoleApp1
             //Inheritance.Run();
             //Constructor.Run();
             //BaseKey.Run();
-            Type_Conversion.Run();
+            //Type_Conversion.Run();
         }
     }
 }
