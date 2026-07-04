@@ -33,6 +33,7 @@ using ConsoleApp1.CSharp_Basics.OOPS.UpCasting;
 using ConsoleApp1.CSharp_Basics.Operators;
 using ConsoleApp1.CSharp_Basics.Patial_Classes;
 using ConsoleApp1.CSharp_Basics.Queue;
+using ConsoleApp1.CSharp_Basics.SOLID_Principles;
 using ConsoleApp1.CSharp_Basics.Stacks;
 using ConsoleApp1.CSharp_Basics.Strings;
 using ConsoleApp1.CSharp_Basics.Structure;
@@ -120,6 +121,9 @@ namespace ConsoleApp1
             //Constructor.Run();
             //BaseKey.Run();
             //Type_Conversion.Run();
+            //Liskov_Substitution_Principle.Run();
+            //Interface_Segregation_Principle.Run();
+            Dependency_Inversion_Principle.Run();
         }
     }
 }

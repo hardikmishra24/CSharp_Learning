@@ -97,6 +97,9 @@
     <Compile Include="CSharp Basics\OOPS\UpCasting\SizeProgram.cs" />
     <Compile Include="CSharp Basics\OOPS\UpCasting\UpcastingDemo.cs" />
     <Compile Include="CSharp Basics\Operators\AssignmentOP.cs" />
+    <Compile Include="CSharp Basics\SOLID_Principles\Dependency_Inversion_Principle.cs" />
+    <Compile Include="CSharp Basics\SOLID_Principles\Interface_Segregation_Principle.cs" />
+    <Compile Include="CSharp Basics\SOLID_Principles\Liskov_Substitution_Principle.cs" />
     <Compile Include="CSharp Basics\SOLID_Principles\Open-Closed_Principle.cs" />
     <Compile Include="CSharp Basics\SOLID_Principles\Single_Responsibility_Principle.cs" />
     <Compile Include="CSharp Basics\Type_Casting\TypeCasting.cs" />
