@@ -21,6 +21,7 @@ using ConsoleApp1.CSharp_Basics.Initializer;
 using ConsoleApp1.CSharp_Basics.Initializer.CollectionInitalizer;
 using ConsoleApp1.CSharp_Basics.Initializer.ObjectInitializer;
 using ConsoleApp1.CSharp_Basics.Interfaces;
+using ConsoleApp1.CSharp_Basics.LINQ;
 using ConsoleApp1.CSharp_Basics.Lists;
 using ConsoleApp1.CSharp_Basics.Loops;
 using ConsoleApp1.CSharp_Basics.Methods;
@@ -123,7 +124,8 @@ namespace ConsoleApp1
             //Type_Conversion.Run();
             //Liskov_Substitution_Principle.Run();
             //Interface_Segregation_Principle.Run();
-            Dependency_Inversion_Principle.Run();
+            //Dependency_Inversion_Principle.Run();
+            Query_Syntax.Run();
         }
     }
 }

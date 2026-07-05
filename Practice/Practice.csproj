@@ -66,10 +66,10 @@
     <Compile Include="CSharp Basics\ExceptionHandling\NestedException.cs" />
     <Compile Include="CSharp Basics\ExceptionHandling\Rethrow.cs" />
     <Compile Include="CSharp Basics\ExceptionHandling\Throw_Demo.cs" />
-    <Compile Include="CSharp Basics\Delegates\Action_Key.cs" />
+    <Compile Include="CSharp Basics\Delegates\Action_Keyword.cs" />
     <Compile Include="CSharp Basics\Delegates\Anonymous_Method.cs" />
     <Compile Include="CSharp Basics\Delegates\Delegates_Demo.cs" />
-    <Compile Include="CSharp Basics\Delegates\Func_key.cs" />
+    <Compile Include="CSharp Basics\Delegates\Func_keyword.cs" />
     <Compile Include="CSharp Basics\Delegates\MultiCast.cs" />
     <Compile Include="CSharp Basics\Delegates\Outparam.cs" />
     <Compile Include="CSharp Basics\Delegates\Predicate_key.cs" />
@@ -82,6 +82,7 @@
     <Compile Include="CSharp Basics\Initializer\CollectionInitalizer\Collection.cs" />
     <Compile Include="CSharp Basics\Initializer\Coll_ObjInitializer.cs" />
     <Compile Include="CSharp Basics\Initializer\ObjectInitializer\Objects.cs" />
+    <Compile Include="CSharp Basics\LINQ\Query_Syntax.cs" />
     <Compile Include="CSharp Basics\OOPS\Encapsulation\AcessModifier\Bank.cs" />
     <Compile Include="CSharp Basics\OOPS\Inheritance\Access_Modifiers.cs" />
     <Compile Include="CSharp Basics\OOPS\Inheritance\BaseKey.cs" />
