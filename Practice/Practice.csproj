@@ -82,6 +82,7 @@
     <Compile Include="CSharp Basics\Initializer\CollectionInitalizer\Collection.cs" />
     <Compile Include="CSharp Basics\Initializer\Coll_ObjInitializer.cs" />
     <Compile Include="CSharp Basics\Initializer\ObjectInitializer\Objects.cs" />
+    <Compile Include="CSharp Basics\LINQ\Lambda\Lambda_.cs" />
     <Compile Include="CSharp Basics\LINQ\Query_Syntax.cs" />
     <Compile Include="CSharp Basics\OOPS\Encapsulation\AcessModifier\Bank.cs" />
     <Compile Include="CSharp Basics\OOPS\Inheritance\Access_Modifiers.cs" />
