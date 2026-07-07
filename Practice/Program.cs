@@ -23,6 +23,7 @@ using ConsoleApp1.CSharp_Basics.Initializer.ObjectInitializer;
 using ConsoleApp1.CSharp_Basics.Interfaces;
 using ConsoleApp1.CSharp_Basics.LINQ;
 using ConsoleApp1.CSharp_Basics.LINQ.Lambda;
+using ConsoleApp1.CSharp_Basics.LINQ.SyntaxandWhere;
 using ConsoleApp1.CSharp_Basics.Lists;
 using ConsoleApp1.CSharp_Basics.Loops;
 using ConsoleApp1.CSharp_Basics.Methods;
@@ -33,6 +34,7 @@ using ConsoleApp1.CSharp_Basics.OOPS.Inheritance;
 using ConsoleApp1.CSharp_Basics.OOPS.Structural_Relationships;
 using ConsoleApp1.CSharp_Basics.OOPS.UpCasting;
 using ConsoleApp1.CSharp_Basics.Operators;
+using ConsoleApp1.CSharp_Basics.Operators.Logical_Operator;
 using ConsoleApp1.CSharp_Basics.Patial_Classes;
 using ConsoleApp1.CSharp_Basics.Queue;
 using ConsoleApp1.CSharp_Basics.SOLID_Principles;
@@ -46,6 +48,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static ConsoleApp1.CSharp_Basics.LINQ.OFtype.student;
 
 namespace ConsoleApp1
 {
@@ -127,7 +130,10 @@ namespace ConsoleApp1
             //Interface_Segregation_Principle.Run();
             //Dependency_Inversion_Principle.Run();
             //Query_Syntax.Run();
-            Lambda_.Run();
+            //Lambda_.Run();
+            //Logic_Op.Run();
+            //Method_Syntax.Run();
+            Query_OFtype.Run();
         }
     }
 }
