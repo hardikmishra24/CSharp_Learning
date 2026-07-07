@@ -83,7 +83,9 @@
     <Compile Include="CSharp Basics\Initializer\Coll_ObjInitializer.cs" />
     <Compile Include="CSharp Basics\Initializer\ObjectInitializer\Objects.cs" />
     <Compile Include="CSharp Basics\LINQ\Lambda\Lambda_.cs" />
+    <Compile Include="CSharp Basics\LINQ\OFtype\Method_OFType.cs" />
     <Compile Include="CSharp Basics\LINQ\OFtype\Query_OFtype.cs" />
+    <Compile Include="CSharp Basics\LINQ\Orderby\Query_Orderby.cs" />
     <Compile Include="CSharp Basics\LINQ\SyntaxandWhere\Method_Syntax.cs" />
     <Compile Include="CSharp Basics\LINQ\SyntaxandWhere\Query_Syntax.cs" />
     <Compile Include="CSharp Basics\OOPS\Encapsulation\AcessModifier\Bank.cs" />

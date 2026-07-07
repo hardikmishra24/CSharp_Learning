@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace ConsoleApp1.CSharp_Basics.LINQ.OFtype
 {
+    // The oftype operator filters a collection and returns only the elements of the specified data type.
     public class student
     {
         public int Id { get; set; }
@@ -41,9 +42,9 @@ namespace ConsoleApp1.CSharp_Basics.LINQ.OFtype
                                 select s;
                 foreach(var std in stdresult)
                 {
-                    Console.WriteLine(std);
+                    Console.WriteLine(std.Name);
                 }
-        }
+            }
         }
     }
 }

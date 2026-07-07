@@ -23,6 +23,8 @@ using ConsoleApp1.CSharp_Basics.Initializer.ObjectInitializer;
 using ConsoleApp1.CSharp_Basics.Interfaces;
 using ConsoleApp1.CSharp_Basics.LINQ;
 using ConsoleApp1.CSharp_Basics.LINQ.Lambda;
+using ConsoleApp1.CSharp_Basics.LINQ.OFtype;
+using ConsoleApp1.CSharp_Basics.LINQ.Orderby;
 using ConsoleApp1.CSharp_Basics.LINQ.SyntaxandWhere;
 using ConsoleApp1.CSharp_Basics.Lists;
 using ConsoleApp1.CSharp_Basics.Loops;
@@ -133,7 +135,9 @@ namespace ConsoleApp1
             //Lambda_.Run();
             //Logic_Op.Run();
             //Method_Syntax.Run();
-            Query_OFtype.Run();
+            //Query_OFtype.Run();
+            //Method_OFType.Run();
+            Query_Orderby.Run();
         }
     }
 }
