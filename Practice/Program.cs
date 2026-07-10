@@ -22,10 +22,14 @@ using ConsoleApp1.CSharp_Basics.Initializer.CollectionInitalizer;
 using ConsoleApp1.CSharp_Basics.Initializer.ObjectInitializer;
 using ConsoleApp1.CSharp_Basics.Interfaces;
 using ConsoleApp1.CSharp_Basics.LINQ;
+using ConsoleApp1.CSharp_Basics.LINQ.Aggregate;
+using ConsoleApp1.CSharp_Basics.LINQ.Any_All;
 using ConsoleApp1.CSharp_Basics.LINQ.Groupby;
+using ConsoleApp1.CSharp_Basics.LINQ.Joins;
 using ConsoleApp1.CSharp_Basics.LINQ.Lambda;
 using ConsoleApp1.CSharp_Basics.LINQ.OFtype;
 using ConsoleApp1.CSharp_Basics.LINQ.Orderby;
+using ConsoleApp1.CSharp_Basics.LINQ.select_;
 using ConsoleApp1.CSharp_Basics.LINQ.SyntaxandWhere;
 using ConsoleApp1.CSharp_Basics.LINQ.Thenby;
 using ConsoleApp1.CSharp_Basics.Lists;
@@ -141,8 +145,12 @@ namespace ConsoleApp1
             //Method_OFType.Run();
             //Query_Orderby.Run();
             //Method_Orderby.Run();
-           //_Thenby.Run();
-            Query_GroupBy.Run();
+            //_Thenby.Run();
+            //Query_GroupBy.Run();
+            //Learn_Join.Run();
+            //Learn_select.Run();
+            //Learn_AnyAll.Run();
+            Learn_Aggregate.Run();
         }
     }
 }

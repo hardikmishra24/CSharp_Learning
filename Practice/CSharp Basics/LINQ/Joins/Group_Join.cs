@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.CSharp_Basics.LINQ.Groupby
+namespace ConsoleApp1.CSharp_Basics.LINQ.Joins
 {
-    internal class Method_GroupBy
+    internal class Group_Join
     {
     }
 }
