@@ -24,12 +24,18 @@ using ConsoleApp1.CSharp_Basics.Interfaces;
 using ConsoleApp1.CSharp_Basics.LINQ;
 using ConsoleApp1.CSharp_Basics.LINQ.Aggregate;
 using ConsoleApp1.CSharp_Basics.LINQ.Any_All;
+using ConsoleApp1.CSharp_Basics.LINQ.Concersion_Op;
+using ConsoleApp1.CSharp_Basics.LINQ.Conversion_Op;
+using ConsoleApp1.CSharp_Basics.LINQ.Elements;
+using ConsoleApp1.CSharp_Basics.LINQ.Generation_Op;
 using ConsoleApp1.CSharp_Basics.LINQ.Groupby;
 using ConsoleApp1.CSharp_Basics.LINQ.Joins;
 using ConsoleApp1.CSharp_Basics.LINQ.Lambda;
 using ConsoleApp1.CSharp_Basics.LINQ.OFtype;
 using ConsoleApp1.CSharp_Basics.LINQ.Orderby;
+using ConsoleApp1.CSharp_Basics.LINQ.Partioning_OP;
 using ConsoleApp1.CSharp_Basics.LINQ.select_;
+using ConsoleApp1.CSharp_Basics.LINQ.Sets;
 using ConsoleApp1.CSharp_Basics.LINQ.SyntaxandWhere;
 using ConsoleApp1.CSharp_Basics.LINQ.Thenby;
 using ConsoleApp1.CSharp_Basics.Lists;
@@ -150,7 +156,13 @@ namespace ConsoleApp1
             //Learn_Join.Run();
             //Learn_select.Run();
             //Learn_AnyAll.Run();
-            Learn_Aggregate.Run();
+            //Learn_Aggregate.Run();
+            //Learn_Elements.Run();
+            //Learn_sets.Run();
+            //Gen_Op.Run();
+            //partioning_op.Run();
+           // Conversion_OP.Run();
+            Casting.Run();
         }
     }
 }
