@@ -155,6 +155,7 @@
     <Compile Include="CSharp Basics\Tuples\learnTuple.cs" />
     <Compile Include="CSharp Basics\Tuples\LearnValueTuple.cs" />
     <Compile Include="CSharp Basics\UserInput\User_input.cs" />
+    <Compile Include="Data_StructuresAND_Algorithms\Learn_Arrays.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
