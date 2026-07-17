@@ -57,6 +57,7 @@ using ConsoleApp1.CSharp_Basics.Strings;
 using ConsoleApp1.CSharp_Basics.Structure;
 using ConsoleApp1.CSharp_Basics.Tuples;
 using ConsoleApp1.CSharp_Basics.UserInput;
+using ConsoleApp1.Design_Patterns;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -161,8 +162,9 @@ namespace ConsoleApp1
             //Learn_sets.Run();
             //Gen_Op.Run();
             //partioning_op.Run();
-           // Conversion_OP.Run();
-            Casting.Run();
+            // Conversion_OP.Run();
+            //Casting.Run();
+            Singleton.Run();
         }
     }
 }
